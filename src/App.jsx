@@ -12,7 +12,7 @@ import { Events } from "./pages/Events";
 
 function App() {
   return (
-    <div>
+    <div className="overflow-hidden">
        <Nav/>
        <Routes>
           <Route path="/" element={<Home/>}/>

@@ -4,20 +4,20 @@ import { Carouselswiper } from './Carouselswiper'
 
 export const Hero = () => {
   return (
-    <div className='bg-[#181010] h-[850px] flex justify-center items-center px-[20px] mt-[4px] '>
-        <div className='flex bg-[#181010] rounded-[20px] shadow-lg shadow-[yellow] h-[560px]'>
-            <div className='mt-[10px] py-[100px] w-[50%] text-[white]'>
-                <h1 className='text-[58px] font-primarybold text-center w-[700px]'>SALLY'S KITCHEN </h1>
-                <p className='text-[49px] text-center font-thin'>Taste the Difference,</p>
-                <p className='text-[40px]  text-center mt-[px] '>Savor the Moment,</p>   
+    <div className='bg-[#181010] h-[850px] flex justify-center items-center px-[20px] xl:pt-[100px] '>
+        <div className=' flex max-sm:flex-col bg-[#181010] xl:rounded-[20px] shadow-lg xl:shadow-[yellow] h-[560px]'>
+            <div className='mt-[10px] max-sm:py-10 xl:py-[100px] xl:w-[100%] text-[white] '>
+                <h1 className='max-sm:text-[30px] xl:text-[58px] font-primarybold text-center xl:w-[600px]'>   EVENTS FLAVOURS</h1>
+                <p className='max-sm:text-[23px] xl:text-[49px] text-center font-thin'>Taste the Difference,</p>
+                <p className='max-sm:text-[15px] xl:text-[40px]  text-center mt-[px] '>Savor the Moment,</p>   
 
-                <div className='mt-[70px]'>
-                     <button className='bg-[#f2b705] hover:bg-[#181010] border-[0.5px] text-white font-primarybold text-[20px] px-5 py-3 rounded-full mt-10 block mx-auto'>
+                <div className=''>
+                     <button className='bg-[#181010] hover:bg-[#280b0b] border-[0.5px] text-white font-primarybold text-[20px] px-8 py-2 rounded-full mt-10 block mx-auto cursor-pointer'>
                        SEE MORE
                      </button>  
                 </div>    
             </div>
-            <div className='w-[50%] '>
+            <div className=' '>
                 {/* <img src={heroimg} alt="" className='h-[550px] rounded-[20px]' /> */}
                 <Carouselswiper/>
             </div>

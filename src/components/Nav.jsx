@@ -2,15 +2,16 @@ import React from 'react'
 import { NavLink } from 'react-router';
 import { Shoppingcart } from './Shoppingcart';
 import { Profile } from './Profile';
+import { BiMenu } from 'react-icons/bi';
 import logoimg from '../assets/Logo.jpeg'
 
 
 export const Nav = () => {
   return (
-    <div className='fixed top-0 left-0 right-0 z-10 opacity-70 bg-[#181010]'>
-      <nav className='flex gap-[30%] items-center font-primaryregular bg-[#181010] px-[100px] py-10  '>  
-        <img src={logoimg} alt="" className='size-10' />
-        <ul className='flex space-x-6 gap-10 text-white'>
+    <div className='fixed top-0 left-0 right-0 z-10 opacity-60 bg-[#181010] overflow-auto'>
+      <nav className='flex  max-sm:justify-between xl:gap-[30%] items-center font-primaryregular bg-[#181010] xl:px-[100px] max-sm:py-10 xl:py-[60px]  '>  
+        <img src={logoimg} alt="" className='size-10 max-md:ml-[15px] max-sm:rounded-lg' />
+        <ul className='flex space-x-6 gap-10 text-white max-sm:hidden '>
             <NavLink to="/">
                 <li>Shop</li>
             </NavLink> 
@@ -34,9 +35,12 @@ export const Nav = () => {
                <li>Events</li>
             </NavLink>
         </ul>
-        <div className='flex gap-5 text-white'>
+        <div className='flex gap-5 text-white max-sm:hidden'>
             <p><Shoppingcart/></p>
             <p><Profile/></p>
+        </div>
+        <div className='bg-yellow-300 mr-5 cursor-pointer'>
+          <p><BiMenu className='size-10'/></p> 
         </div>
       </nav>
     </div>

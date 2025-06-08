@@ -30,7 +30,7 @@ export const Carouselswiper = () => {
     };
 
   return (
-    <div className='w-[500px] mt-[50px] ml-[100px]'>
+    <div className='w-[40vw] max-sm:w-[370px] max-sm:mt-[35px] xl:mt-[60px]  p-2'>
         <Swiper
         spaceBetween={10}
         centeredSlides={true}
@@ -46,10 +46,10 @@ export const Carouselswiper = () => {
         onAutoplayTimeLeft={onAutoplayTimeLeft}
         className="mySwiper"
       >
-        <SwiperSlide><img src={image} alt="" className='' /></SwiperSlide>
-        <SwiperSlide><img src={image2} alt="" className='' /></SwiperSlide>
-        <SwiperSlide><img src={image3} alt="" /></SwiperSlide>
-        <SwiperSlide><img src={image4} alt="" /></SwiperSlide>
+        <SwiperSlide><img src={image} alt="" className=' xl:rounded-[25px]' /></SwiperSlide>
+        <SwiperSlide><img src={image2} alt="" className='xl:rounded-[25px]' /></SwiperSlide>
+        <SwiperSlide><img src={image3} alt="" className='xl:rounded-[25px]' /></SwiperSlide>
+        <SwiperSlide><img src={image4} alt="" className='xl:rounded-[25px]' /></SwiperSlide>
         <div className="autoplay-progress w-[20px]" slot="container-end">
           <svg viewBox="0 0 48 48" ref={progressCircle}> 
             {/* <circle cx="24" cy="24" r="20"> home</circle> */}
