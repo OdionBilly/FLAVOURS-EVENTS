@@ -6,10 +6,11 @@ import spooniconimg from '../assets/icons/spoons.png'
 
 export const Bottom = () => {
   return (
-    <div className='flex max-sm:flex-col justify-between xl:gap-2 max-sm:gap-10 max-sm:px-2 xl:px-5 my-[100px] '>
-        <div className='bg-[#ede6e6] xl:w-[50%]  max-sm:w-[100%] shadow-lg shadow-[#2b2b2a]'>
-            <h1 className=' max-sm:px-5 xl:px-10 py-5 font-PrimarySemiBold text-[20px] mt-10'>ABOUT US</h1>
-            <p className='w-[400px] max-sm:px-5 xl:px-10 font-primarylato_light py-2 '>Welcome to Sallys' Kitchen – your go-to online destination for freshly baked pastries, african and intercontonental cousine
+    <div className='flex max-sm:flex-col max-lg:flex-col justify-between xl:gap-2 max-lg:gap-10 max-sm:gap-10 max-sm:px-2 max-lg:px-5 xl:px-5 my-[100px] '>
+        <div className='bg-[#ede6e6] xl:w-[50%] max-sm:w-[100%] shadow-lg shadow-[#2b2b2a] max-lg:py-10'>
+            <h1 className='max-sm:px-5 max-lg:px-5 xl:px-10 py-3 font-PrimarySemiBold mt-5 text-[30px] '>ABOUT US</h1>
+            <p className='xl:w-[600px] max-sm:px-5 max-lg:px-5 xl:px-10 font-primarylato_light text-[18px] py-2'>
+                Welcome to Event's Flavours – your go-to online destination for freshly baked pastries, african and intercontonental cousine
                  delivered right to your door. We’re a team of passionate bakers and tech 
                  lovers who believe that ordering your favorite treats should be as delightful as eating them.
                   From buttery croissants to rich chocolate éclairs, our easy-to-use app lets you browse, 

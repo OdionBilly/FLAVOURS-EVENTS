@@ -64,10 +64,10 @@ export const SubNav = () => {
             <h1 className='text-center text-3xl font-bold py-5'></h1>
             <p className='text-center text-gray-500'>Explore from our wide range of delicious African  and intercontonental dish that are sure to satisfy your cravings.</p>
         </div>
-        <div className='grid xl:grid-cols-4 gap-4 px-5 py-[50px] '>
+        <div className='grid max-sm:grid-cols-1 max-lg:grid-cols-2 xl:grid-cols-4 gap-4 px-5 py-[50px] '>
             {DummyProduct.map((product) => (
                 <div key={product.id} className='border xl:p-10 group transition duration-300 relative overflow-hidden'>
-                    <img src={product.image} alt={product.name} className=' xl:h-[20vh] object-cover group-hover:scale-110 transition duration-300' />
+                    <img src={product.image} alt={product.image} className=' xl:h-[20vh] object-cover group-hover:scale-110 transition duration-300' />
 
                     {/* buttons */}
                     <div className='absolute top-2 -right-10 group-hover:right-5 bg-[#312d27] p-2 opacity-0 group-hover:opacity-50 transition-all'>

@@ -30,7 +30,7 @@ export const Carouselswiper = () => {
     };
 
   return (
-    <div className='w-[40vw] max-sm:w-[370px] max-sm:mt-[35px] xl:mt-[60px]  p-2'>
+    <div className='w-[40vw] max-sm:w-[370px] max-lg:w-[350px] max-sm:mt-[35px] xl:mt-[60px]  p-2'>
         <Swiper
         spaceBetween={10}
         centeredSlides={true}
