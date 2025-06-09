@@ -5,20 +5,22 @@ export const Footer = () => {
 
   return (
         // <div className=' bg-[#201818] mt-[100px]'>
-          <div className='bg-[#000] items-center px-5 py-[70px] mt-[100px]'> 
-                <div className=' flex  leading-8 gap-10  text-white font-primarybold px-[50px] py-[40px] ml-[80px] rounded-xl shadow-[10px_0px_40px_5px_rgba(100,12,100,112.1)]'>
-                   <p className='w-[600px] text-[30px]'>Your High Expectation to Quinch Your Thirst with </p>
-                    <div className=''> 
-                      <input type="text" placeholder='Enter Email Address 'className='py-3 w-[300px] px-5 rounded-lg' />
-                      <button type="button" className='px-10 py-3 bg-white text-[gray] font-primarybold rounded-lg'>Subscribe</button>
+          <div className='bg-[#000] items-center px-5 py-[70px] mt-[100px] '> 
+                <div className='flex max-sm:flex-col xl:leading-10 gap-10  text-white font-primarybold xl:px-[50px] py-[40px] xl:ml-[80px] rounded-xl shadow-[10px_0px_40px_5px_rgba(100,12,100,112.1)]'>
+                   <p className='xl:w-[600px] max-sm:px-5 max-sm:text-[20px] xl:text-[30px]'>Your High Expectation to Quinch Your Tates with Our Flavours </p>
+                    <div className=' max-sm:px-5'> 
+                      <div className='max-sm:mb-4 mb-4'>
+                          <input type="text" placeholder='Enter Email Address 'className='py-3 w-[300px] px-5 rounded-lg' />
+                      </div>
+                      <button type="button" className='px-10 py-3 bg-white text-[gray] font-primarybold rounded-lg cursor-pointer'>Subscribe</button>
                     </div> 
                 </div>
 
               <div className=' mt-[50px] py-5 text-white '>
-                <div className='flex justify-between px-[100px] '>
-                  <div className='py-10'>
-                    <h1 className='font-PrimarySemiBold text-[20px]'>Menu</h1>
-                    <ul className='text-center py-5 leading-9 font-primaryregular'>
+                <div className='flex max-sm:flex-col justify-between xl:px-[100px] '>
+                  <div className='xl:py-10'>
+                    <h1 className='font-PrimarySemiBold max-sm:text-center xl:text-[20px]'>Menu</h1>
+                    <ul className='text-center xl:py-5 leading-9 font-primaryregular'>
                       <li>Home</li>
                       <li>Shop</li>
                       <li>About</li>
