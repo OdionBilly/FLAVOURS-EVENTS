@@ -8,7 +8,7 @@ import logoimg from '../assets/Logo.jpeg'
 
 export const Nav = () => {
   return (
-    <div className='fixed top-0 left-0 right-0 z-10 opacity-60 bg-[#181010] overflow-auto'>
+    <div className='fixed top-0 left-0 right-0 z-10 opacity-60 bg-[#181010]'>
       <nav className='flex  max-sm:justify-between xl:gap-[30%] items-center font-primaryregular bg-[#181010] xl:px-[100px] max-sm:py-10 xl:py-[60px]  '>  
         <img src={logoimg} alt="" className='size-10 max-md:ml-[15px] max-sm:rounded-lg' />
         <ul className='flex space-x-6 gap-10 text-white max-sm:hidden '>

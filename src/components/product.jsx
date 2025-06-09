@@ -17,9 +17,9 @@ export const Product = () => {
   return (
     <div className='py-10'>
       {/* async function for food API */}
-      <div className='grid grid-cols-4 gap-4 px-10 '>
+      <div className='flex flex-col xl:flex-cols-4 gap-4 px-10 '>
         {products.map((product) => (
-          <div key={product.id} className='border p-4'>
+          <div key={product.id} className='border p-2'>
             <img src={product.image} alt={product.title} className=' h-[20vh] object-cover' />
             <h2 className='text-[15px] font-primarylato_light'>{product.title}</h2>
             {/* <p className='text-gray-600'>{product.description}</p> */}
