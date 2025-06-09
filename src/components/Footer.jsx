@@ -1,12 +1,12 @@
 import React from 'react'
-import Logoimage from '../assets/Logo.jpeg'
+// import Logoimage from '../assets/Logo.jpeg'
 import { BsInstagram,BsFacebook,BsTwitterX,BsTiktok } from 'react-icons/bs'
 
 export const Footer = () => {
 
   return (
-        // <div className=' bg-[#201818] mt-[100px]'>
-          <div className='bg-[#000] items-center px-5 py-[70px] mt-[150px] '> 
+        <div className='bg-[#000]'>
+          <div className='bg-[#000] items-center px-5 py-[70px] -[150px] '> 
                 <div className='flex max-sm:flex-col xl:leading-10 gap-10 text-white font-primarybold xl:px-[50px] max-lg:px-10 py-[50px] xl:ml-[80px] rounded-xl shadow-[10px_0px_40px_5px_rgba(100,12,100,112.1)]'>
                        <p className='xl:w-[600px] max-sm:px-5 max-sm:text-[20px] xl:text-[30px]'>Your High Expectation to Quinch Your Tates with Our Flavours </p>
                     <div className=' max-sm:px-5'> 
@@ -17,8 +17,8 @@ export const Footer = () => {
                     </div> 
                 </div>
 
-              <div className='mt-[50px] py-5 text-white max-lg:px-3 max-lg:mt-[100px]'>
-                <div className='flex max-sm:flex-col justify-between xl:px-[100px] max-sm:text-center '>
+              <div className='mt-[50px] py-10 text-white max-lg:px-3'>
+                <div className='flex max-sm:flex-col justify-between max-lg:mt-[150px] xl:px-[70px] max-sm:text-center '>
                   <div className='xl:py-10 max-lg:py-10 cursor-pointer max-sm:text-center'>
                     <h1 className='font-PrimarySemiBold max-lg:text-[20px] xl:text-left xl:text-[20px]'>LINK</h1>
                     <ul className='xl:py-5 max-lg:py-5 leading-9 font-primaryregular'>
@@ -70,8 +70,12 @@ export const Footer = () => {
                     </ul>
                   </div>
                 </div> 
-              </div>
+              </div>    
           </div>
-        // </div>
+          <div className='flex max-sm:flex-col-reverse justify-between text-center max-lg:px-6 xl:px-10 py-2 text-white'>
+                   <p className=''>@ 2025 Event Flavours. All right reserved</p>
+                   <p className=''> Terms of Service</p>
+          </div>
+        </div>
   )
 }
