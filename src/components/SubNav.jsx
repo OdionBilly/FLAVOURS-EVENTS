@@ -9,25 +9,25 @@ const DummyProduct = [
         name: 'queen cake',
         price: 500,
         description:'special cake for kings and queen',
-        image: '/src/assets/flavours/queen-cake.jpg'
+        image: '/flavours/queen-cake.jpg'
     },
     { id: 'p2',
         name: 'meat pie',
         price: 700,
         description:'your favorite meat pie',
-        image: '/src/assets/flavours/meatpie.jpg'
+        image: '/flavours/meatpie.jpg'
     },
     { id: 'p3',
         name: 'chicken pie',
         price: 700,
         description:'enjoy the amazing taste of oue chicken pie',
-        image: '/src/assets/flavours/chickenpie.jpg'
+        image: '/flavours/chickenpie.jpg'
     },
     { id: 'p4',
         name: 'suasage roll',
         price: 500,
         description:'you would not want to miss this amazing taste',
-        image: '/src/assets/flavours/sausage-roll.jpg'
+        image: '/flavours/sausage-roll.jpg'
     },
     { id: 'p5',
         name: 'French fries toast',
@@ -39,19 +39,19 @@ const DummyProduct = [
         name: 'chocolate cake',
         price: 500,
         description:'chocolate cake is a delicious and decadent dessert that is loved by many.',
-        image: '/src/assets/flavours/chocolate-cake.jpg'
+        image: '/flavours/chocolate-cake.jpg'
     },
     { id: 'p7',
         name: 'burger Bite',
         price: 1000,
         description:'burger bite is a delicious and savory dish that combines the flavors of burger with the convenience of a pie.',
-        image: '/src/assets/flavours/burger.jpg'
+        image: '/flavours/burger.jpg'
     },
     { id: 'p8',
         name: 'pizza Pie',
         price: 800,
         description:'Pizza pie is a delicious and savory dish that combines the flavors of pizza with the convenience of a pie.',
-        image: '/src/assets/flavours/pizza-pie.jpg'
+        image: '/flavours/pizza-pie.jpg'
     },
 
 ]
