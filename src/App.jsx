@@ -3,7 +3,7 @@ import { Home } from "./pages/Home"
 import { Nav } from "./components/Nav"
 import { Menu } from "./pages/Menu"
 // import { Events } from "./Pages/Events"
-import { Service } from './pages/service';
+import { Service } from './pages/Service';
 import { Footer } from "./components/Footer"
 import { Events } from "./pages/Events";
 
