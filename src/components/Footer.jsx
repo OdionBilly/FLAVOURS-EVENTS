@@ -8,7 +8,7 @@ export const Footer = () => {
         <div className='bg-[#000]'>
           <div className='bg-[#000] items-center px-5 py-[70px] -[150px] '> 
                 <div className='flex max-sm:flex-col xl:leading-10 gap-10 text-white font-primarybold xl:px-[50px] max-lg:px-10 max-sm:px-1 py-[50px] xl:ml-[80px] rounded-xl shadow-[10px_0px_40px_5px_rgba(100,12,100,112.1)]'>
-                       <p className='xl:w-[600px] max-sm:px-5 max-sm:text-[20px] xl:text-[30px]'>Your High Expectation to Quinch Your Tates with Our Flavours </p>
+                       <p className='xl:w-[600px] max-sm:px-5 max-sm:text-[20px] xl:text-[30px]'>Your High Expectation to Quinch Your Taste with Our Flavours </p>
                     <div className=' max-sm:px-5'> 
                       <div className='max-sm:mb-4 mb-2 text-black'>
                           <input type="text" placeholder='Enter Email Address 'className='py-3 xl:w-[320px] px-5 rounded-lg'/>
