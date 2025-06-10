@@ -1,8 +1,9 @@
 import React from 'react'
+import bgimage from '../assets/bgImg.png'
 
 export const Cart = () => {
   return (
-    <div className='bg-Service_Image bg-cover bg-center xl:h-[550px] max-lg:h-[400px] max-sm:mx-2 max-lg:mx-5 xl:mx-5 rounded-[20px]'>
+    <div className='bg-Service_Image bg-cover bg-center xl:h-[550px] max-lg:h-[400px] max-sm:mx-2 max-lg:mx-5 xl:mx-5 max-sm:my-[70px] max-lg:my-[100px] xl:my-[200px]  rounded-[20px]' style={{backgroundImage: `url(${bgimage})` }}>
         <div className='mx-1 max-sm:w-[100%] xl:w-[50%] bg-[#181010] max-sm:py-10 max-lg:h-[400px] max-lg:px-10
                       xl:h-[550px] rounded-[20px] shadow-lg shadow-black flex flex-col justify-center text-white opacity-50'>
          <h1 className='font-primarybold text-[30px] max-sm:px-5 xl:px-[100px]'>Our Service</h1>
