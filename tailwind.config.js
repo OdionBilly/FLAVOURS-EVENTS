@@ -14,8 +14,8 @@ export default {
         primarylato_light: ['Lato-Light'],
       },
       backgroundImage:{
-        About_image:"url('./src/assets/botbg.png')",
-        Service_Image:"url('./src/assets/bgImg.png')",
+        About_image:"url('.public/botbg.png')",
+        Service_Image:"url('.public/bgImg.png')",
 
       }
 
