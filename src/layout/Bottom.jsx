@@ -1,5 +1,5 @@
 import React from 'react'
-// import botomimg from '../assets/botbg.png'
+import botomimg from '../assets/botbg.png'
 import foodiconimg from '../assets/icons/ep_food.png'
 import deliveryiconimg from '../assets/icons/delivery.png'
 import spooniconimg from '../assets/icons/spoons.png'
@@ -17,7 +17,7 @@ export const Bottom = () => {
                 order, and enjoy your favorite pastries with just a few clicks. Freshness, flavor, and convenience
             </p>
         </div>
-        <div className='xl:w-[50%] max-sm:w-[100%] py-[40px] bg-About_image bg-cover bg-no-repeat bg-center shadow-lg shadow-[#2b2b2a] '>
+        <div className='xl:w-[50%] max-sm:w-[100%] py-[40px] bg-About_image bg-cover bg-no-repeat bg-center shadow-lg shadow-[#2b2b2a]' style={{backgroundImage : `url(${botomimg})`}}>
             {/* <img src={botomimg} alt="" /> */}
             <h1 className='text-white text-[30px] max-sm:px-5 xl:px-[100px] pt-10'>How to use our delivery Service</h1>
             <div className='flex max-sm:flex-col gap-10 justify-center max-sm:px-5 items-center mt-[70px] text-white  '>
